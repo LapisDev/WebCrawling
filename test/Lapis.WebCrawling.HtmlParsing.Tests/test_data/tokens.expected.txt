@@ -1,0 +1,393 @@
+Line 1, Span 11 : <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+Line 1, Span 63 : 
+Line 2, Span 0 : 
+
+Line 2, Span 2 : <html >
+Line 2, Span 7 : 
+Line 3, Span 0 : 
+
+Line 3, Span 1 : 	
+Line 3, Span 3 : <head >
+Line 3, Span 8 : 
+Line 4, Span 0 : 
+
+Line 4, Span 1 : 	
+Line 4, Span 2 : 	
+Line 4, Span 4 : <title >
+Line 4, Span 10 : T
+Line 4, Span 11 : e
+Line 4, Span 12 : s
+Line 4, Span 13 : t
+Line 4, Span 14 :  
+Line 4, Span 15 : D
+Line 4, Span 16 : o
+Line 4, Span 17 : c
+Line 4, Span 18 : u
+Line 4, Span 19 : m
+Line 4, Span 20 : e
+Line 4, Span 21 : n
+Line 4, Span 22 : t
+Line 4, Span 25 : </title>
+Line 4, Span 31 : 
+Line 5, Span 0 : 
+
+Line 5, Span 1 :  
+Line 5, Span 2 :  
+Line 5, Span 3 :  
+Line 5, Span 4 :  
+Line 5, Span 5 :  
+Line 5, Span 6 :  
+Line 5, Span 7 :  
+Line 5, Span 8 :  
+Line 5, Span 10 : <link rel="copyright copyleft" hreflang="en-us">
+Line 5, Span 57 : 
+Line 6, Span 0 : 
+
+Line 6, Span 1 : 	
+Line 6, Span 4 : </head>
+Line 6, Span 9 : 
+Line 7, Span 0 : 
+
+Line 7, Span 1 : 	
+Line 7, Span 3 : <body >
+Line 7, Span 8 : 
+Line 8, Span 0 : 
+
+Line 8, Span 1 : 	
+Line 8, Span 2 :  
+Line 8, Span 3 :  
+Line 8, Span 4 :  
+Line 8, Span 5 :  
+Line 8, Span 7 : <h1 >
+Line 8, Span 10 : T
+Line 8, Span 11 : h
+Line 8, Span 12 : i
+Line 8, Span 13 : s
+Line 8, Span 14 :  
+Line 8, Span 15 : i
+Line 8, Span 16 : s
+Line 8, Span 17 :  
+Line 8, Span 18 : j
+Line 8, Span 19 : u
+Line 8, Span 20 : s
+Line 8, Span 21 : t
+Line 8, Span 22 :  
+Line 8, Span 23 : a
+Line 8, Span 24 :  
+Line 8, Span 25 : t
+Line 8, Span 26 : e
+Line 8, Span 27 : s
+Line 8, Span 28 : t
+Line 8, Span 29 :  
+Line 8, Span 30 : d
+Line 8, Span 31 : o
+Line 8, Span 32 : c
+Line 8, Span 33 : u
+Line 8, Span 34 : m
+Line 8, Span 35 : e
+Line 8, Span 36 : n
+Line 8, Span 37 : t
+Line 8, Span 40 : </h1>
+Line 8, Span 43 : 
+Line 9, Span 0 : 
+
+Line 9, Span 1 : 	
+Line 9, Span 2 :  
+Line 9, Span 3 :  
+Line 9, Span 4 :  
+Line 9, Span 5 :  
+Line 9, Span 7 : <p >
+Line 9, Span 9 : I
+Line 9, Span 10 : t
+Line 9, Span 11 :  
+Line 9, Span 12 : w
+Line 9, Span 13 : i
+Line 9, Span 14 : l
+Line 9, Span 15 : l
+Line 9, Span 16 :  
+Line 9, Span 17 : b
+Line 9, Span 18 : e
+Line 9, Span 19 :  
+Line 9, Span 20 : u
+Line 9, Span 21 : s
+Line 9, Span 22 : e
+Line 9, Span 23 : d
+Line 9, Span 24 :  
+Line 9, Span 25 : i
+Line 9, Span 26 : n
+Line 9, Span 27 :  
+Line 9, Span 28 : t
+Line 9, Span 29 : e
+Line 9, Span 30 : s
+Line 9, Span 31 : t
+Line 9, Span 32 : s
+Line 9, Span 33 : .
+Line 9, Span 36 : </p>
+Line 9, Span 38 : 
+Line 10, Span 0 : 
+
+Line 10, Span 1 : 	
+Line 10, Span 2 :  
+Line 10, Span 3 :  
+Line 10, Span 4 :  
+Line 10, Span 5 :  
+Line 10, Span 7 : <p id="info">
+Line 10, Span 19 : I
+Line 10, Span 20 : t
+Line 10, Span 21 :  
+Line 10, Span 22 : p
+Line 10, Span 23 : r
+Line 10, Span 24 : o
+Line 10, Span 25 : b
+Line 10, Span 26 : a
+Line 10, Span 27 : b
+Line 10, Span 28 : l
+Line 10, Span 29 : y
+Line 10, Span 30 :  
+Line 10, Span 31 : w
+Line 10, Span 32 : i
+Line 10, Span 33 : l
+Line 10, Span 34 : l
+Line 10, Span 35 :  
+Line 10, Span 36 : n
+Line 10, Span 37 : o
+Line 10, Span 38 : t
+Line 10, Span 39 :  
+Line 10, Span 40 : b
+Line 10, Span 41 : e
+Line 10, Span 42 :  
+Line 10, Span 43 : u
+Line 10, Span 44 : s
+Line 10, Span 45 : e
+Line 10, Span 46 : d
+Line 10, Span 47 :  
+Line 10, Span 48 : a
+Line 10, Span 49 : n
+Line 10, Span 50 : y
+Line 10, Span 51 : w
+Line 10, Span 52 : h
+Line 10, Span 53 : e
+Line 10, Span 54 : r
+Line 10, Span 55 : e
+Line 10, Span 56 :  
+Line 10, Span 57 : e
+Line 10, Span 58 : l
+Line 10, Span 59 : s
+Line 10, Span 60 : e
+Line 10, Span 61 : .
+Line 10, Span 64 : </p>
+Line 10, Span 66 : 
+Line 11, Span 0 : 
+
+Line 11, Span 1 : 	
+Line 11, Span 2 :  
+Line 11, Span 3 :  
+Line 11, Span 4 :  
+Line 11, Span 5 :  
+Line 11, Span 7 : <h2 >
+Line 11, Span 10 : R
+Line 11, Span 11 : e
+Line 11, Span 12 : a
+Line 11, Span 13 : l
+Line 11, Span 14 : l
+Line 11, Span 15 : y
+Line 11, Span 16 : ,
+Line 11, Span 17 :  
+Line 11, Span 18 : i
+Line 11, Span 19 : t
+Line 11, Span 20 : '
+Line 11, Span 21 : s
+Line 11, Span 22 :  
+Line 11, Span 23 : u
+Line 11, Span 24 : n
+Line 11, Span 25 : f
+Line 11, Span 26 : o
+Line 11, Span 27 : r
+Line 11, Span 28 : t
+Line 11, Span 29 : u
+Line 11, Span 30 : n
+Line 11, Span 31 : a
+Line 11, Span 32 : t
+Line 11, Span 33 : e
+Line 11, Span 34 : .
+Line 11, Span 37 : </h2>
+Line 11, Span 40 : 
+Line 12, Span 0 : 
+
+Line 12, Span 1 : 	
+Line 12, Span 2 :  
+Line 12, Span 3 :  
+Line 12, Span 4 :  
+Line 12, Span 5 :  
+Line 12, Span 7 : <q lang="en-us">
+Line 12, Span 22 : H
+Line 12, Span 23 : e
+Line 12, Span 24 : r
+Line 12, Span 25 : e
+Line 12, Span 26 : '
+Line 12, Span 27 : s
+Line 12, Span 28 :  
+Line 12, Span 29 : a
+Line 12, Span 30 :  
+Line 12, Span 31 : q
+Line 12, Span 32 : u
+Line 12, Span 33 : o
+Line 12, Span 34 : t
+Line 12, Span 35 : a
+Line 12, Span 36 : t
+Line 12, Span 37 : i
+Line 12, Span 38 : o
+Line 12, Span 39 : n
+Line 12, Span 40 : .
+Line 12, Span 43 : </q>
+Line 12, Span 45 : 
+Line 13, Span 0 : 
+
+Line 13, Span 1 : 	
+Line 13, Span 2 :  
+Line 13, Span 3 :  
+Line 13, Span 4 :  
+Line 13, Span 5 :  
+Line 13, Span 7 : <p id="google">
+Line 13, Span 21 : Y
+Line 13, Span 22 : o
+Line 13, Span 23 : u
+Line 13, Span 24 :  
+Line 13, Span 25 : m
+Line 13, Span 26 : i
+Line 13, Span 27 : g
+Line 13, Span 28 : h
+Line 13, Span 29 : t
+Line 13, Span 30 :  
+Line 13, Span 31 : w
+Line 13, Span 32 : a
+Line 13, Span 33 : n
+Line 13, Span 34 : t
+Line 13, Span 35 :  
+Line 13, Span 36 : t
+Line 13, Span 37 : o
+Line 13, Span 38 :  
+Line 13, Span 39 : c
+Line 13, Span 40 : h
+Line 13, Span 41 : e
+Line 13, Span 42 : c
+Line 13, Span 43 : k
+Line 13, Span 44 :  
+Line 13, Span 45 : o
+Line 13, Span 46 : u
+Line 13, Span 47 : t
+Line 13, Span 48 :  
+Line 13, Span 50 : <a href="http://www.google.com">
+Line 13, Span 81 : G
+Line 13, Span 82 : o
+Line 13, Span 83 : o
+Line 13, Span 84 : g
+Line 13, Span 85 : l
+Line 13, Span 86 : e
+Line 13, Span 89 : </a>
+Line 13, Span 93 : </p>
+Line 13, Span 95 : 
+Line 14, Span 0 : 
+
+Line 14, Span 1 : 	
+Line 14, Span 2 :  
+Line 14, Span 3 :  
+Line 14, Span 4 :  
+Line 14, Span 5 :  
+Line 14, Span 7 : <form action="">
+Line 14, Span 22 : 
+Line 15, Span 0 : 
+
+Line 15, Span 1 : 	
+Line 15, Span 2 :  
+Line 15, Span 3 :  
+Line 15, Span 4 :  
+Line 15, Span 5 :  
+Line 15, Span 6 :  
+Line 15, Span 7 :  
+Line 15, Span 8 :  
+Line 15, Span 9 :  
+Line 15, Span 11 : <input type="text" disabled="disabled">
+Line 15, Span 49 : 
+Line 16, Span 0 : 
+
+Line 16, Span 1 : 	
+Line 16, Span 2 :  
+Line 16, Span 3 :  
+Line 16, Span 4 :  
+Line 16, Span 5 :  
+Line 16, Span 6 :  
+Line 16, Span 7 :  
+Line 16, Span 8 :  
+Line 16, Span 9 :  
+Line 16, Span 11 : <input type="text">
+Line 16, Span 29 : 
+Line 17, Span 0 : 
+
+Line 17, Span 1 : 	
+Line 17, Span 2 :  
+Line 17, Span 3 :  
+Line 17, Span 4 :  
+Line 17, Span 5 :  
+Line 17, Span 6 :  
+Line 17, Span 7 :  
+Line 17, Span 8 :  
+Line 17, Span 9 :  
+Line 17, Span 11 : <input type="checkbox" checked="checked">
+Line 17, Span 51 : 
+Line 18, Span 0 : 
+
+Line 18, Span 1 : 	
+Line 18, Span 2 :  
+Line 18, Span 3 :  
+Line 18, Span 4 :  
+Line 18, Span 5 :  
+Line 18, Span 8 : </form>
+Line 18, Span 13 : 
+Line 19, Span 0 : 
+
+Line 19, Span 1 : 	
+Line 19, Span 2 :  
+Line 19, Span 3 :  
+Line 19, Span 4 :  
+Line 19, Span 5 :  
+Line 19, Span 7 : <p class="more">
+Line 19, Span 22 : N
+Line 19, Span 23 : o
+Line 19, Span 24 : t
+Line 19, Span 25 : h
+Line 19, Span 26 : i
+Line 19, Span 27 : n
+Line 19, Span 28 : g
+Line 19, Span 29 :  
+Line 19, Span 30 : t
+Line 19, Span 31 : o
+Line 19, Span 32 :  
+Line 19, Span 33 : r
+Line 19, Span 34 : e
+Line 19, Span 35 : a
+Line 19, Span 36 : l
+Line 19, Span 37 : l
+Line 19, Span 38 : y
+Line 19, Span 39 :  
+Line 19, Span 40 : t
+Line 19, Span 41 : a
+Line 19, Span 42 : l
+Line 19, Span 43 : k
+Line 19, Span 44 :  
+Line 19, Span 45 : a
+Line 19, Span 46 : b
+Line 19, Span 47 : o
+Line 19, Span 48 : u
+Line 19, Span 49 : t
+Line 19, Span 50 : .
+Line 19, Span 53 : </p>
+Line 19, Span 55 : 
+Line 20, Span 0 : 
+
+Line 20, Span 1 : 	
+Line 20, Span 4 : </body>
+Line 20, Span 9 : 
+Line 21, Span 0 : 
+
+Line 21, Span 3 : </html>
