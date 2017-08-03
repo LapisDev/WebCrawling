@@ -1,0 +1,1358 @@
+{
+  "homepages": [],
+  "source_base_path": "E:/Projects/Lapis.WebCrawling/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Downloading.DecompressionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Downloading.DecompressionProvider.html",
+          "hash": "tH1Z3gwhc/sgfALsmIup0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Downloading.DownloadCompletedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Downloading.DownloadCompletedEventArgs.html",
+          "hash": "BnFljO+IOvfE1pPAWiVnoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Downloading.DownloadCompletedEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Downloading.DownloadCompletedEventHandler.html",
+          "hash": "MuFqbOQfGboFMIEI7Q5OWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Downloading.HtmlDownloader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Downloading.HtmlDownloader.html",
+          "hash": "wuzceGFQ3i9Acm10mbjDfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Downloading.HttpRequestConfig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Downloading.HttpRequestConfig.html",
+          "hash": "ac4hjLSa9cab8CPBwhx1RQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Downloading.IDecompressionProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Downloading.IDecompressionProvider.html",
+          "hash": "D6m9sPPJCjH/GYF3YW9Sxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Downloading.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Downloading.html",
+          "hash": "hOynyIlCL0IXEAlQNFHBdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.AttributeSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.AttributeSelector.html",
+          "hash": "maZqLTOoOAWmi6agnRs7rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.AttributeSelectorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.AttributeSelectorType.html",
+          "hash": "VLYsB/+wcMNCBObB0zCQKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.ClassSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.ClassSelector.html",
+          "hash": "vrZepGroeGHM5s+h3f9Jug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.CssSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.CssSelector.html",
+          "hash": "vji4uwn0xEgtujdRDy400Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.CssSelectorException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.CssSelectorException.html",
+          "hash": "0PO8XfRl9j8cFchhVI2ghA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.DimensionToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.DimensionToken.html",
+          "hash": "5oiKR8nGtMaP9bfOaKtGMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.Extensions.html",
+          "hash": "nTiyq2EZi3Vm5onE+nSXEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.HashToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.HashToken.html",
+          "hash": "JSIqzAqhIzs9syXbNGUqoA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.IdSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.IdSelector.html",
+          "hash": "G4WRqEIrcHV6JcAB9Cq/bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.NumberToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.NumberToken.html",
+          "hash": "L7NMj6tAdA8Q2N7jATIYsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.Parser.html",
+          "hash": "/o6b8BKKmWKG8NRw2568Eg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.PseudoClassNegationSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.PseudoClassNegationSelector.html",
+          "hash": "L8Bp8oyH5GL4V1Ej7QcdSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.PseudoClassNthSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.PseudoClassNthSelector.html",
+          "hash": "xhluA+5HBJCnsXOa6AMX9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.PseudoClassNthSelectorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.PseudoClassNthSelectorType.html",
+          "hash": "vD2QYVCrGQoJKQyDFZxruA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.PseudoClassSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.PseudoClassSelector.html",
+          "hash": "9ypTvMLJifRf9MhtQHfWvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.PseudoClassSelectorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.PseudoClassSelectorType.html",
+          "hash": "SQKr+VXw5liVMVcLOq45Tw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.SelectorCombinator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.SelectorCombinator.html",
+          "hash": "bYf/Hjsoy/4LIJWLpmC06Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.SelectorCombinatorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.SelectorCombinatorType.html",
+          "hash": "yctsVlSJ4DHu4yx1UCmcFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.SelectorGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.SelectorGroup.html",
+          "hash": "p6a6hdsVfTaWmbyy2khvOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.SelectorSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.SelectorSequence.html",
+          "hash": "5pp3foCGSlHm3pTMxOJCfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.Token.html",
+          "hash": "HO6IpAkk7BHWyueTnszfoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.TokenType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.TokenType.html",
+          "hash": "rBKdckBS5e9omXMGUDd2Nw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.Tokenizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.Tokenizer.html",
+          "hash": "pA6zYrEg52EAJ2zqtJ0Dig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.TypeSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.TypeSelector.html",
+          "hash": "Dbeot8YKIM4Co+5ZHYsZdA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.UnicodeRangeToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.UnicodeRangeToken.html",
+          "hash": "yTErh1VGjjzXb5sco8cc2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.UniversalSelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.UniversalSelector.html",
+          "hash": "enN0WqhrX5fuoP1SLqwnWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.CssSelectors.html",
+          "hash": "+v+k8RDx9ut6l2JHzkrC4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Html.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Html.html",
+          "hash": "+xtKshTL04yKXyQsD7JfPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.HtmlException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.HtmlException.html",
+          "hash": "J7UyvL6ZXK/sxhcHjTLcUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.HtmlExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.HtmlExtensions.html",
+          "hash": "wYceXi7pAnh0tc7CnR7Cmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.CharacterToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.CharacterToken.html",
+          "hash": "1sUKbeEwcJrzSfKgMR/SlA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.CommentToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.CommentToken.html",
+          "hash": "tlXXXT30Ic+xj8Qu6foN+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.DOCTYPEToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.DOCTYPEToken.html",
+          "hash": "ggPJ/3EcIZwM8dfZV4fvag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.EOFToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.EOFToken.html",
+          "hash": "oScUGd3HZeyo0RGPsLFMNg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.EndTagToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.EndTagToken.html",
+          "hash": "kSJU5GVzjaa8H81N0Eg3BA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.Location.html",
+          "hash": "DDiAHLFhztFXh8LlCBLCHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.StartTagToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.StartTagToken.html",
+          "hash": "YePQvY23EqLGaDMtaWtPwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.TagToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.TagToken.html",
+          "hash": "jLJU/nc8NT0EPsARfac4AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.TagTokenAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.TagTokenAttribute.html",
+          "hash": "WAP3Xc+B3mCu5ZXnEYSvTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.TagTokenAttributeCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.TagTokenAttributeCollection.html",
+          "hash": "SrVTfjawA+YPLNvMbstTpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.Token.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.Token.html",
+          "hash": "iWkve+W4w3utfsu+KKIINQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.Tokenizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.Tokenizer.html",
+          "hash": "ugmfY+K28yeXOUr5nnsf0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.Tokenization.html",
+          "hash": "uTS7GqL0ad6WID2b+upd5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute.html",
+          "hash": "NcYQX17sXC+568Mr1vBadw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttributeCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttributeCollection.html",
+          "hash": "yF8NYu3XhMTf4rawYPn0Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlComment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlComment.html",
+          "hash": "ZK7agj9GVGC9FyR8vGISew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlContainer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlContainer.html",
+          "hash": "mY2ISZYAb9B+SJwdvOvd6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlDocument.html",
+          "hash": "/xh/7Y9u9EybfIjW3XV6dg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlDocumentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlDocumentType.html",
+          "hash": "748gxZg04u//GON+DwvfAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlElement.html",
+          "hash": "aQ1oyRMulvPx1iah/Jvd9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlFormat.html",
+          "hash": "j2DkVsg0qX+BU3pz8Gx12A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html",
+          "hash": "6RARnE678K+34rJgj7YIaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNodeCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNodeCollection.html",
+          "hash": "bKTmpQ3H7mkepBZhdoUukg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlObject.html",
+          "hash": "KyimpU7Ytn86SjLfkbAH5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlText.html",
+          "hash": "WLs5OFVOjb7n6ESyyhP2PQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.TreeConstructor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.TreeConstructor.html",
+          "hash": "d2otrG5kcMOTKt83CRkT0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.TreeConstruction.html",
+          "hash": "wJ2ByH2XjFP5AuJOoNGLFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.XmlExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.XmlExtensions.html",
+          "hash": "SF7KLvzCZvg4wkpexh8B/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.HtmlParsing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.HtmlParsing.html",
+          "hash": "0ZH+H2Fi+LRQ85Ga3v9//g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Parsing.CssSelectorParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Parsing.CssSelectorParser.html",
+          "hash": "JsbzXQCaw3NuMEOVUGMG9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Parsing.DelegateParser-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Parsing.DelegateParser-2.html",
+          "hash": "zfMnBCP0VNISoPrDPxLkqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Parsing.HtmlCleaner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Parsing.HtmlCleaner.html",
+          "hash": "uztsEoUS/s0Bz0zofbr1gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Parsing.HtmlCleanerOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Parsing.HtmlCleanerOptions.html",
+          "hash": "tsB/GmdxLFE4H35v9XgjBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Parsing.IParser-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Parsing.IParser-2.html",
+          "hash": "fIp8TU4hNboXwkeHBIbPbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Parsing.NodeParserResultType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Parsing.NodeParserResultType.html",
+          "hash": "0nfR+h4zyA3qBX9a4pDO6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Parsing.RegexParser-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Parsing.RegexParser-1.html",
+          "hash": "WPQzIaFkwHs5yb1mnbKvsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Parsing.RegexParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Parsing.RegexParser.html",
+          "hash": "jrX8aBnMGg0RSEYke5xFDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Parsing.StartEndParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Parsing.StartEndParser.html",
+          "hash": "3oA/Sp/KLdSn48swgp6b/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Parsing.XPathParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Parsing.XPathParser.html",
+          "hash": "DZkO1N1gtX+B1hzVj85aHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Parsing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Parsing.html",
+          "hash": "fmH7qChT56wClod7jhTs9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Processing.IRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Processing.IRecord.html",
+          "hash": "6hD/JacqycXo16bfO0Rf0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Processing.Processor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Processing.Processor.html",
+          "hash": "o8zAcW4IampA1qQjA1hZow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Processing.ProcessorBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Processing.ProcessorBuilder.html",
+          "hash": "USLKC9N9if+Js6ihA7sTSA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Processing.Record.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Processing.Record.html",
+          "hash": "RbA4yNEVnRMEQBh8zDxLZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Processing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Processing.html",
+          "hash": "urE2d2eijkl/B9/9bTm8xw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.BreadthFirstSpider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.BreadthFirstSpider.html",
+          "hash": "d92z/OejmS73Gk1kCn21Vw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.DelegateUriFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.DelegateUriFilter.html",
+          "hash": "9935xNGNQe8y4IoJK2GGvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.DepthFirstSpider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.DepthFirstSpider.html",
+          "hash": "x7kPpT1f3Goe7imz3a8l/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.ErrorCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.ErrorCallback.html",
+          "hash": "+71hUvanRXsjoaQsqTI1bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.ILinkParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.ILinkParser.html",
+          "hash": "eKdE0sxehTIaI9r5pNNUuQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.IUriFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.IUriFilter.html",
+          "hash": "M72+FSxtlRBWiTwgDEXvOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.LinkParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.LinkParser.html",
+          "hash": "7shDUcUPrn7zSrnRF+63Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.SearchMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.SearchMode.html",
+          "hash": "25QJ9Ry59nGAqcHHp6AgeQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.Spider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.Spider.html",
+          "hash": "dHYHohilydfOXgxJ2L+8vA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.SpiderBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.SpiderBuilder.html",
+          "hash": "FqyKBz5rwWG1Rx0JwjOduw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.SpiderCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.SpiderCallback.html",
+          "hash": "zReNSEswMETM7LWrG1aXcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.UriCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.UriCollection.html",
+          "hash": "ewP2dF+0VFFR6nLmFPjHOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Spiders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Spiders.html",
+          "hash": "kt3KSuN3G1jIDkHpWeJOzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Writers.CsvOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Writers.CsvOptions.html",
+          "hash": "SQ3MVTI454H3XPf5k0iUDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Writers.CsvWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Writers.CsvWriter.html",
+          "hash": "LH8JWT69yiP7bQV2VqS2HQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Writers.IRecordWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Writers.IRecordWriter.html",
+          "hash": "Gf7mX4JTyPDHT6yDDAYoQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Writers.JsonOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Writers.JsonOptions.html",
+          "hash": "cGO9uPvGtPrABO8kbyxJeA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Writers.JsonWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Writers.JsonWriter.html",
+          "hash": "hyXcylCjq7RezyDX7Vl4ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Writers.XmlOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Writers.XmlOptions.html",
+          "hash": "njar8H1hpcRnPe4aodhQlw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Writers.XmlWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Writers.XmlWriter.html",
+          "hash": "e7mgSWd3NKs4hM74nXAQBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Lapis.WebCrawling.Writers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Lapis.WebCrawling.Writers.html",
+          "hash": "YcN+e+BIh1u8ZSs8HwVZDA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "l3Fv/g2TERdoSuXU47Q4IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "m0W8qri4hq87ZNO3fIr+1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/css-selector.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/css-selector.html",
+          "hash": "dkpcNLtoCNk/0+m2xVK1Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "uEjkDzcmQQx4+8ECcpNkIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "sK4FW0HM5mgqOMnLXm8Fzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "lWoVp/2WqnBfsreEjPmgMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "RestApiDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor RestApiDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build"
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {}
+}

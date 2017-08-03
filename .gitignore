@@ -286,3 +286,5 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+src/Lapis.WebCrawling.HtmlParsing/ExceptionResource.Designer.cs
+src/Lapis.WebCrawling/ExceptionResource.Designer.cs

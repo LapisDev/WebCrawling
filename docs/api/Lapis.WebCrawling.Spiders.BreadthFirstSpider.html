@@ -1,0 +1,299 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BreadthFirstSpider
+   | Lapis WebCrawling Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BreadthFirstSpider
+   | Lapis WebCrawling Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.WebCrawling.Spiders.BreadthFirstSpider">
+  
+  
+  <h1 id="Lapis_WebCrawling_Spiders_BreadthFirstSpider" data-uid="Lapis.WebCrawling.Spiders.BreadthFirstSpider" class="text-break">Class BreadthFirstSpider
+  </h1>
+  <div class="markdown level0 summary"><p>Implements a <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html">Spider</a> that uses the breadth first mode.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html">Spider</a></div>
+    <div class="level2"><span class="xref">BreadthFirstSpider</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_RunAsync">Spider.RunAsync()</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_RunAsyncCancel">Spider.RunAsyncCancel()</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_Reset">Spider.Reset()</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_add_PageDownloaded_Lapis_WebCrawling_Downloading_DownloadCompletedEventHandler_">Spider.add_PageDownloaded(DownloadCompletedEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_remove_PageDownloaded_Lapis_WebCrawling_Downloading_DownloadCompletedEventHandler_">Spider.remove_PageDownloaded(DownloadCompletedEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_SeedUris">Spider.SeedUris</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_LinkParser">Spider.LinkParser</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_UriFilter">Spider.UriFilter</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_MaxDepth">Spider.MaxDepth</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_MaxTaskCount">Spider.MaxTaskCount</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_HttpRequestConfig">Spider.HttpRequestConfig</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_DecompressionProvider">Spider.DecompressionProvider</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_UrisDownloaded">Spider.UrisDownloaded</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_UrisDownloading">Spider.UrisDownloading</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_IsBusy">Spider.IsBusy</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_RunCompleted">Spider.RunCompleted</a>
+    </div>
+    <div>
+      <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_PageDownloaded">Spider.PageDownloaded</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.WebCrawling.Spiders.html">Lapis.WebCrawling.Spiders</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.WebCrawling.dll</h6>
+  <h5 id="Lapis_WebCrawling_Spiders_BreadthFirstSpider_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class BreadthFirstSpider : Spider</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Lapis_WebCrawling_Spiders_BreadthFirstSpider__ctor_" data-uid="Lapis.WebCrawling.Spiders.BreadthFirstSpider.#ctor*"></a>
+  <h4 id="Lapis_WebCrawling_Spiders_BreadthFirstSpider__ctor_System_Collections_Generic_IEnumerable_System_Uri__Lapis_WebCrawling_Spiders_ILinkParser_Lapis_WebCrawling_Spiders_IUriFilter_System_Int32_Lapis_WebCrawling_Downloading_HttpRequestConfig_Lapis_WebCrawling_Downloading_IDecompressionProvider_System_Int32_" data-uid="Lapis.WebCrawling.Spiders.BreadthFirstSpider.#ctor(System.Collections.Generic.IEnumerable{System.Uri},Lapis.WebCrawling.Spiders.ILinkParser,Lapis.WebCrawling.Spiders.IUriFilter,System.Int32,Lapis.WebCrawling.Downloading.HttpRequestConfig,Lapis.WebCrawling.Downloading.IDecompressionProvider,System.Int32)">BreadthFirstSpider(IEnumerable&lt;Uri&gt;, ILinkParser, IUriFilter, Int32, HttpRequestConfig, IDecompressionProvider, Int32)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Lapis.WebCrawling.Spiders.BreadthFirstSpider.html">BreadthFirstSpider</a> class with 
+the specified parameters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public BreadthFirstSpider(IEnumerable&lt;Uri&gt; seedUris, ILinkParser linkParser, IUriFilter uriFilter, int maxDepth, HttpRequestConfig httpRequestConfig, IDecompressionProvider decompressionProvider, int maxTaskCount)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Uri</span>&gt;</td>
+        <td><span class="parametername">seedUris</span></td>
+        <td><p>A collection containing the seed URIs.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.Spiders.ILinkParser.html">ILinkParser</a></td>
+        <td><span class="parametername">linkParser</span></td>
+        <td><p>The <a class="xref" href="Lapis.WebCrawling.Spiders.ILinkParser.html">ILinkParser</a> used by the <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html">Spider</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.Spiders.IUriFilter.html">IUriFilter</a></td>
+        <td><span class="parametername">uriFilter</span></td>
+        <td><p>The <a class="xref" href="Lapis.WebCrawling.Spiders.IUriFilter.html">IUriFilter</a> used by the <a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html">Spider</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxDepth</span></td>
+        <td><p>The maximum depth of the URIs to be crawled.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.Downloading.HttpRequestConfig.html">HttpRequestConfig</a></td>
+        <td><span class="parametername">httpRequestConfig</span></td>
+        <td><p>The settings related to the HTTP request.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.Downloading.IDecompressionProvider.html">IDecompressionProvider</a></td>
+        <td><span class="parametername">decompressionProvider</span></td>
+        <td><p>The <a class="xref" href="Lapis.WebCrawling.Downloading.IDecompressionProvider.html">IDecompressionProvider</a> used when downloading web resources.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxTaskCount</span></td>
+        <td><p>The maximum number of tasks in progress.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">seedUris</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p><code data-dev-comment-type="paramref">maxDepth</code> is negative.</p>
+<p>-or-</p>
+<p><code data-dev-comment-type="paramref">maxTaskCount</code> is zero or negative.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_WebCrawling_Spiders_BreadthFirstSpider_UrisToDownload_" data-uid="Lapis.WebCrawling.Spiders.BreadthFirstSpider.UrisToDownload*"></a>
+  <h4 id="Lapis_WebCrawling_Spiders_BreadthFirstSpider_UrisToDownload" data-uid="Lapis.WebCrawling.Spiders.BreadthFirstSpider.UrisToDownload">UrisToDownload</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override UriCollection UrisToDownload { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.Spiders.UriCollection.html">UriCollection</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="Lapis.WebCrawling.Spiders.Spider.html#Lapis_WebCrawling_Spiders_Spider_UrisToDownload">Spider.UrisToDownload</a></div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

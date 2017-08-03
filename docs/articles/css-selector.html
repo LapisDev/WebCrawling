@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>CSS Selector Examples | Lapis WebCrawling Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="CSS Selector Examples | Lapis WebCrawling Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="css-selector-examples">CSS Selector Examples</h1>
+
+<p>This is an example using a css selector to search a node in HTML DOM.</p>
+<pre><code class="lang-html">&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0 Transitional//EN&quot;&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Test Document&lt;/title&gt;
+        &lt;link rel=&quot;copyright copyleft&quot; hreflang=&quot;en-us&quot;&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;This is just a test document&lt;/h1&gt;
+        &lt;p&gt;It will be used in tests.&lt;/p&gt;
+        &lt;p id=&quot;info&quot;&gt;It probably will not be used anywhere else.&lt;/p&gt;
+        &lt;h2&gt;Really, it&#39;s unfortunate.&lt;/h2&gt;
+        &lt;q lang=&quot;en-us&quot;&gt;Here&#39;s a quotation.&lt;/q&gt;
+        &lt;p id=&quot;google&quot;&gt;You might want to check out &lt;a href=&quot;http://www.google.com&quot;&gt;Google&lt;/a&gt;&lt;/p&gt;
+        &lt;form action=&quot;&quot;&gt;
+            &lt;input type=&quot;text&quot; disabled=&quot;disabled&quot;&gt;
+            &lt;input type=&quot;text&quot;&gt;
+            &lt;input type=&quot;checkbox&quot; checked=&quot;checked&quot;&gt;
+        &lt;/form&gt;
+        &lt;p class=&quot;more&quot;&gt;Nothing to really talk about.&lt;/p&gt;
+    &lt;/body&gt;
+&lt;/html&gt;
+</code></pre><pre><code class="lang-csharp">HtmlDocument doc = Html.Parse(html);
+var tag = doc.Find(&quot;body &gt; :last-child&quot;) as HtmlElement;
+Console.WriteLine(tag.Name);                        // p
+Console.WriteLine(tag.Attribute(&quot;class&quot;).Value);    // more
+Console.WriteLine(tag.Children[0]);      // Nothing to really talk about.
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

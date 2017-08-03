@@ -1,0 +1,1674 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HtmlExtensions
+   | Lapis WebCrawling Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HtmlExtensions
+   | Lapis WebCrawling Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions">
+  
+  
+  <h1 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions" class="text-break">Class HtmlExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>Provides extension methods for HTML DOM.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">HtmlExtensions</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.WebCrawling.HtmlParsing.html">Lapis.WebCrawling.HtmlParsing</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.WebCrawling.HtmlParsing.dll</h6>
+  <h5 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class HtmlExtensions : Object</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_AsEnumerable_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.AsEnumerable*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_AsEnumerable_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.AsEnumerable(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode)">AsEnumerable(HtmlNode)</h4>
+  <div class="markdown level1 summary"><p>Returns this node and its descendant nodes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;HtmlNode&gt; AsEnumerable(this HtmlNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;&gt;</span> of this node and its the 
+descendant nodes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Attribute_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Attribute*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Attribute_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_System_String_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Attribute(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode,System.String)">Attribute(HtmlNode, String)</h4>
+  <div class="markdown level1 summary"><p>Returns the specified attribute of this node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HtmlAttribute Attribute(this HtmlNode node, string attribute)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">attribute</span></td>
+        <td><p>The name of the attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute.html">HtmlAttribute</a></td>
+        <td><p>The value of <code data-dev-comment-type="paramref">attribute</code> of <code data-dev-comment-type="paramref">node</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Children_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Children*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Children_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Children(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode)">Children(HtmlNode)</h4>
+  <div class="markdown level1 summary"><p>Returns the child nodes of this node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;HtmlNode&gt; Children(this HtmlNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;&gt;</span> of the child nodes of this node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Children_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Children*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Children_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_System_Func_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_System_Boolean__" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Children(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode,System.Func{Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode,System.Boolean})">Children(HtmlNode, Func&lt;HtmlNode, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the child nodes of this node filtered by a predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;HtmlNode&gt; Children(this HtmlNode node, Func&lt;HtmlNode, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td><p>A function to test each element for a condition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;&gt;</span> of the child nodes that satisfy 
+the condition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_ClassList_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.ClassList*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_ClassList_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.ClassList(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode)">ClassList(HtmlNode)</h4>
+  <div class="markdown level1 summary"><p>Returns the values of the class attribute of this node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;string&gt; ClassList(this HtmlNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><p>The class list of <code data-dev-comment-type="paramref">node</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_ClassName_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.ClassName*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_ClassName_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.ClassName(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode)">ClassName(HtmlNode)</h4>
+  <div class="markdown level1 summary"><p>Returns the value of the class attribute of this node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ClassName(this HtmlNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The class of <code data-dev-comment-type="paramref">node</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Contains_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Contains*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Contains_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlAttribute_System_String_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Contains(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute,System.String)">Contains(HtmlAttribute, String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the attribute value contains the specified substring.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool Contains(this HtmlAttribute attribute, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute.html">HtmlAttribute</a></td>
+        <td><span class="parametername">attribute</span></td>
+        <td><p>The attribute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">attribute</code> contains
+<code data-dev-comment-type="paramref">value</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">attribute</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_ContainsWord_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.ContainsWord*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_ContainsWord_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlAttribute_System_String_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.ContainsWord(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute,System.String)">ContainsWord(HtmlAttribute, String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the attribute value has the specified word splitted by 
+white spaces.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool ContainsWord(this HtmlAttribute attribute, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute.html">HtmlAttribute</a></td>
+        <td><span class="parametername">attribute</span></td>
+        <td><p>The attribute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">attribute</code> has
+word <code data-dev-comment-type="paramref">value</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">attribute</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Descendants_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Descendants*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Descendants_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Descendants(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode)">Descendants(HtmlNode)</h4>
+  <div class="markdown level1 summary"><p>Returns the descendant nodes of this node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;HtmlNode&gt; Descendants(this HtmlNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;&gt;</span> of the descendant nodes of this node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Descendants_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Descendants*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Descendants_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_System_Func_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_System_Boolean__" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Descendants(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode,System.Func{Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode,System.Boolean})">Descendants(HtmlNode, Func&lt;HtmlNode, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the descendant nodes of this node filtered by a predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;HtmlNode&gt; Descendants(this HtmlNode node, Func&lt;HtmlNode, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td><p>A function to test each element for a condition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;&gt;</span> of the descendant nodes that satisfy 
+the condition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_EndsWith_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.EndsWith*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_EndsWith_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlAttribute_System_String_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.EndsWith(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute,System.String)">EndsWith(HtmlAttribute, String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the attribute value has the specified postfix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool EndsWith(this HtmlAttribute attribute, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute.html">HtmlAttribute</a></td>
+        <td><span class="parametername">attribute</span></td>
+        <td><p>The attribute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">attribute</code> has
+postfix <code data-dev-comment-type="paramref">value</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">attribute</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_EqualsValue_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.EqualsValue*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_EqualsValue_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlAttribute_System_String_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.EqualsValue(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute,System.String)">EqualsValue(HtmlAttribute, String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the attribute value is the specified value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool EqualsValue(this HtmlAttribute attribute, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute.html">HtmlAttribute</a></td>
+        <td><span class="parametername">attribute</span></td>
+        <td><p>The attribute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">attribute</code> is
+<code data-dev-comment-type="paramref">value</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">attribute</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_FirstChild_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.FirstChild*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_FirstChild_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.FirstChild(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode)">FirstChild(HtmlNode)</h4>
+  <div class="markdown level1 summary"><p>Returns the first child of the node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HtmlNode FirstChild(this HtmlNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><p>The first child of the node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_GetElementById_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.GetElementById*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_GetElementById_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_System_String_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.GetElementById(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode,System.String)">GetElementById(HtmlNode, String)</h4>
+  <div class="markdown level1 summary"><p>Returns the child nodes of this node with the specified id attribute.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HtmlNode GetElementById(this HtmlNode node, string id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The value of the id attribute.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><p>The child nodes of <code data-dev-comment-type="paramref">node</code> with the id <code data-dev-comment-type="paramref">id</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The parameter is <span class="xref">null</span> or white space.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_GetElementsByTagName_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.GetElementsByTagName*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_GetElementsByTagName_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_System_String_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.GetElementsByTagName(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode,System.String)">GetElementsByTagName(HtmlNode, String)</h4>
+  <div class="markdown level1 summary"><p>Returns the child nodes of this node with the specified tag name.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;HtmlNode&gt; GetElementsByTagName(this HtmlNode node, string tagName)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">tagName</span></td>
+        <td><p>The tag name.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a>&gt;</td>
+        <td><p>The child nodes of <code data-dev-comment-type="paramref">node</code> with the tag name <code data-dev-comment-type="paramref">tagName</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>The parameter is <span class="xref">null</span> or white space.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Id_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Id*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Id_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Id(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode)">Id(HtmlNode)</h4>
+  <div class="markdown level1 summary"><p>Returns the value of the id attribute of this node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string Id(this HtmlNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The id of <code data-dev-comment-type="paramref">node</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_LastChild_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.LastChild*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_LastChild_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.LastChild(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode)">LastChild(HtmlNode)</h4>
+  <div class="markdown level1 summary"><p>Returns the last child of the node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HtmlNode LastChild(this HtmlNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><p>The last child of the node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_NextSibling_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.NextSibling*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_NextSibling_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.NextSibling(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode)">NextSibling(HtmlNode)</h4>
+  <div class="markdown level1 summary"><p>Returns the node immediately following this node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HtmlNode NextSibling(this HtmlNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><p>The node immediately following this node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Parents_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Parents*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Parents_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Parents(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode)">Parents(HtmlNode)</h4>
+  <div class="markdown level1 summary"><p>Returns the parent nodes of this node (for nodes that can have parents).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;HtmlNode&gt; Parents(this HtmlNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a>&gt;</td>
+        <td><p>The parent nodes of <code data-dev-comment-type="paramref">node</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_PreviousSibling_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.PreviousSibling*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_PreviousSibling_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.PreviousSibling(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode)">PreviousSibling(HtmlNode)</h4>
+  <div class="markdown level1 summary"><p>Returns the node immediately preceding this node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static HtmlNode PreviousSibling(this HtmlNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><p>The node immediately preceding this node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Siblings_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Siblings*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Siblings_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Siblings(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode)">Siblings(HtmlNode)</h4>
+  <div class="markdown level1 summary"><p>Returns the sibling nodes of this node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;HtmlNode&gt; Siblings(this HtmlNode node)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;&gt;</span> of the sibling nodes of this node.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Siblings_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Siblings*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_Siblings_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_System_Func_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlNode_System_Boolean__" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.Siblings(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode,System.Func{Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode,System.Boolean})">Siblings(HtmlNode, Func&lt;HtmlNode, Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Returns the sibling nodes of this node filtered by a predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IEnumerable&lt;HtmlNode&gt; Siblings(this HtmlNode node, Func&lt;HtmlNode, bool&gt; predicate)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a></td>
+        <td><span class="parametername">node</span></td>
+        <td><p>The node.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td><p>A function to test each element for a condition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlNode.html">HtmlNode</a>&gt;</td>
+        <td><p>An <span class="xref">System.Collections.Generic.IEnumerable&lt;&gt;</span> of the sibling nodes that satisfy 
+the condition.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_StartsWith_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.StartsWith*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_StartsWith_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlAttribute_System_String_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.StartsWith(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute,System.String)">StartsWith(HtmlAttribute, String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the attribute value has the specified prefix.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StartsWith(this HtmlAttribute attribute, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute.html">HtmlAttribute</a></td>
+        <td><span class="parametername">attribute</span></td>
+        <td><p>The attribute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">attribute</code> has
+prefix <code data-dev-comment-type="paramref">value</code>; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">attribute</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_StartsWithWord_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.StartsWithWord*"></a>
+  <h4 id="Lapis_WebCrawling_HtmlParsing_HtmlExtensions_StartsWithWord_Lapis_WebCrawling_HtmlParsing_TreeConstruction_HtmlAttribute_System_String_" data-uid="Lapis.WebCrawling.HtmlParsing.HtmlExtensions.StartsWithWord(Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute,System.String)">StartsWithWord(HtmlAttribute, String)</h4>
+  <div class="markdown level1 summary"><p>Determines whether the attribute value starts with the specified prefix 
+and a dash (-).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StartsWithWord(this HtmlAttribute attribute, string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.HtmlParsing.TreeConstruction.HtmlAttribute.html">HtmlAttribute</a></td>
+        <td><span class="parametername">attribute</span></td>
+        <td><p>The attribute.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The value to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p><span class="xref">true</span> if the value of <code data-dev-comment-type="paramref">attribute</code> has
+starts with <code data-dev-comment-type="paramref">value</code>-; otherwise, <span class="xref">false</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p><code data-dev-comment-type="paramref">attribute</code> is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

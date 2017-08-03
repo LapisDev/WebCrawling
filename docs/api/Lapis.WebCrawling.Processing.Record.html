@@ -1,0 +1,497 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Record
+   | Lapis WebCrawling Documentation </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Record
+   | Lapis WebCrawling Documentation ">
+    <meta name="generator" content="docfx 2.22.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Lapis.WebCrawling.Processing.Record">
+  
+  
+  <h1 id="Lapis_WebCrawling_Processing_Record" data-uid="Lapis.WebCrawling.Processing.Record" class="text-break">Class Record
+  </h1>
+  <div class="markdown level0 summary"><p>Implements a default <a class="xref" href="Lapis.WebCrawling.Processing.IRecord.html">IRecord</a>. This class is a wrapper of 
+<span class="xref">System.Collections.Generic.Dictionary&lt;, &gt;</span>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Record</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Lapis.WebCrawling.Processing.html">Lapis.WebCrawling.Processing</a></h6>
+  <h6><strong>Assembly</strong>: Lapis.WebCrawling.Processing.dll</h6>
+  <h5 id="Lapis_WebCrawling_Processing_Record_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Record : Object, IRecord, IEnumerable&lt;KeyValuePair&lt;string, string&gt;&gt;, IEnumerable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="Lapis_WebCrawling_Processing_Record__ctor_" data-uid="Lapis.WebCrawling.Processing.Record.#ctor*"></a>
+  <h4 id="Lapis_WebCrawling_Processing_Record__ctor_System_Collections_Generic_IDictionary_System_String_System_String__" data-uid="Lapis.WebCrawling.Processing.Record.#ctor(System.Collections.Generic.IDictionary{System.String,System.String})">Record(IDictionary&lt;String, String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="Lapis.WebCrawling.Processing.Record.html">Record</a> class with an 
+<span class="xref">System.Collections.Generic.IDictionary&lt;, &gt;</span>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Record(IDictionary&lt;string, string&gt; dictionary)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">dictionary</span></td>
+        <td><p>An <span class="xref">System.Collections.Generic.IDictionary&lt;, &gt;</span> whose keys and values 
+are copied to the new <a class="xref" href="Lapis.WebCrawling.Processing.Record.html">Record</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentNullException</span></td>
+        <td><p>The parameter is <span class="xref">null</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Lapis_WebCrawling_Processing_Record_Count_" data-uid="Lapis.WebCrawling.Processing.Record.Count*"></a>
+  <h4 id="Lapis_WebCrawling_Processing_Record_Count" data-uid="Lapis.WebCrawling.Processing.Record.Count">Count</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Lapis.WebCrawling.Processing.IRecord.html#Lapis_WebCrawling_Processing_IRecord_Count">IRecord.Count</a></div>
+  
+  
+  <a id="Lapis_WebCrawling_Processing_Record_Item_" data-uid="Lapis.WebCrawling.Processing.Record.Item*"></a>
+  <h4 id="Lapis_WebCrawling_Processing_Record_Item_System_String_" data-uid="Lapis.WebCrawling.Processing.Record.Item(System.String)">Item[String]</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string this[string key] { get; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Lapis.WebCrawling.Processing.IRecord.html#Lapis_WebCrawling_Processing_IRecord_Item_System_String_">IRecord.Item[String]</a></div>
+  
+  
+  <a id="Lapis_WebCrawling_Processing_Record_Keys_" data-uid="Lapis.WebCrawling.Processing.Record.Keys*"></a>
+  <h4 id="Lapis_WebCrawling_Processing_Record_Keys" data-uid="Lapis.WebCrawling.Processing.Record.Keys">Keys</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; Keys { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Lapis.WebCrawling.Processing.IRecord.html#Lapis_WebCrawling_Processing_IRecord_Keys">IRecord.Keys</a></div>
+  
+  
+  <a id="Lapis_WebCrawling_Processing_Record_Values_" data-uid="Lapis.WebCrawling.Processing.Record.Values*"></a>
+  <h4 id="Lapis_WebCrawling_Processing_Record_Values" data-uid="Lapis.WebCrawling.Processing.Record.Values">Values</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; Values { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Lapis.WebCrawling.Processing.IRecord.html#Lapis_WebCrawling_Processing_IRecord_Values">IRecord.Values</a></div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Lapis_WebCrawling_Processing_Record_ContainsKey_" data-uid="Lapis.WebCrawling.Processing.Record.ContainsKey*"></a>
+  <h4 id="Lapis_WebCrawling_Processing_Record_ContainsKey_System_String_" data-uid="Lapis.WebCrawling.Processing.Record.ContainsKey(System.String)">ContainsKey(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsKey(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Lapis.WebCrawling.Processing.IRecord.html#Lapis_WebCrawling_Processing_IRecord_ContainsKey_System_String_">IRecord.ContainsKey(String)</a></div>
+  
+  
+  <a id="Lapis_WebCrawling_Processing_Record_GetEnumerator_" data-uid="Lapis.WebCrawling.Processing.Record.GetEnumerator*"></a>
+  <h4 id="Lapis_WebCrawling_Processing_Record_GetEnumerator" data-uid="Lapis.WebCrawling.Processing.Record.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;KeyValuePair&lt;string, string&gt;&gt; GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_Processing_Record_ToString_" data-uid="Lapis.WebCrawling.Processing.Record.ToString*"></a>
+  <h4 id="Lapis_WebCrawling_Processing_Record_ToString" data-uid="Lapis.WebCrawling.Processing.Record.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns the string representation of the <a class="xref" href="Lapis.WebCrawling.Processing.Record.html">Record</a> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The string representation of the <a class="xref" href="Lapis.WebCrawling.Processing.Record.html">Record</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Lapis_WebCrawling_Processing_Record_TryGetValue_" data-uid="Lapis.WebCrawling.Processing.Record.TryGetValue*"></a>
+  <h4 id="Lapis_WebCrawling_Processing_Record_TryGetValue_System_String_System_String__" data-uid="Lapis.WebCrawling.Processing.Record.TryGetValue(System.String,System.String@)">TryGetValue(String, out String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetValue(string key, out string value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="implements">Implements</h5>
+      <div><a class="xref" href="Lapis.WebCrawling.Processing.IRecord.html#Lapis_WebCrawling_Processing_IRecord_TryGetValue_System_String_System_String__">IRecord.TryGetValue(String, out String)</a></div>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="Lapis_WebCrawling_Processing_Record_op_Explicit_" data-uid="Lapis.WebCrawling.Processing.Record.op_Explicit*"></a>
+  <h4 id="Lapis_WebCrawling_Processing_Record_op_Explicit_Lapis_WebCrawling_Processing_Record__System_Collections_Generic_Dictionary_System_String_System_String_" data-uid="Lapis.WebCrawling.Processing.Record.op_Explicit(Lapis.WebCrawling.Processing.Record)~System.Collections.Generic.Dictionary{System.String,System.String}">Explicit(Record to Dictionary&lt;String, String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Defines an explicit conversion of an <a class="xref" href="Lapis.WebCrawling.Processing.Record.html">Record</a> object to a
+<span class="xref">System.Collections.Generic.Dictionary&lt;, &gt;</span> object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static explicit operator Dictionary&lt;string, string&gt;(Record record)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Lapis.WebCrawling.Processing.Record.html">Record</a></td>
+        <td><span class="parametername">record</span></td>
+        <td><p>The <a class="xref" href="Lapis.WebCrawling.Processing.Record.html">Record</a> object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><p>A <span class="xref">System.Collections.Generic.Dictionary&lt;, &gt;</span> that contains the keys and values in 
+<code data-dev-comment-type="paramref">record</code>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © 2015-2017 LapisDev<br>Generated by <strong>DocFX</strong>
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
